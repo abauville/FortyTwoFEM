@@ -1,13 +1,10 @@
 
 %% ==============================================
 %                FortyTwo FEM
-% Authors:
+% Author:
 % Arthur Bauville
-% Tobias Keller
-% Boris Kaus
 %
 % Started on: 13.03.2015
-% Last      : 12.11.2015
 % ===============================================
 clc, clear, close all
 
@@ -21,7 +18,7 @@ addpath ./User/Setups
 %% Initialization
 % Change User to change the setup. Current possibility:
 % SingleInclusion, Benchmark_DaniBall, Benchmark_RayleighTaylor
-User        = Benchmark_DaniBall;
+User        = Benchmark_RayleighTaylor;
 Mesh        = Mesh;
 World       = World;
 Mesh        = Mesh;
